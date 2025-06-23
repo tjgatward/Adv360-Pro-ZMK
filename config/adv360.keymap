@@ -69,7 +69,7 @@
         tapping-term-ms = <500>;
         quick_tap_ms = <175>;
         require-prior-idle-ms = <125>;
-        flavor = "tap preferred";
+        flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
 
