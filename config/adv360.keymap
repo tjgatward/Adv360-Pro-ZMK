@@ -60,7 +60,7 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>; 
         hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
-        hold-trigger-on-release;
+
       };
       hm_r: homerow_mods_right {
         compatible = "zmk,behavior-hold-tap";
@@ -72,7 +72,7 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
-        hold-trigger-on-release;
+
       };
     };
 
